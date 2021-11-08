@@ -1,10 +1,5 @@
-# angular-data-grid
 
-Angular Data Grid Examples Used on the AG Grid Blog.
-
-https://blog.ag-grid.com/tag/angular/
-
-
+![alt text](./github-banner.png "Logo Title Text 1")
 
 [![CDNJS](https://img.shields.io/cdnjs/v/ag-grid.svg)](https://cdnjs.com/libraries/ag-grid)
 [![npm](https://img.shields.io/npm/dm/ag-grid.svg)](https://www.npmjs.com/package/ag-grid)
@@ -13,12 +8,14 @@ https://blog.ag-grid.com/tag/angular/
 Demo of Angular Grid Component integration into an Angular project
 ------
 
+
 [Get started in 5 minutes](https://blog.ag-grid.com/get-started-with-angular-grid-in-5-minutes/)
 
 ag-Grid is a fully-featured and highly customizable JavaScript data grid.
 It delivers [outstanding performance](https://www.ag-grid.com/example.php), has no 3rd party dependencies and integrates smoothly with Angular as Angular Component. 
 
 
+![alt text](./github-grid-demo.jpg "Logo Title Text 1")
 
 
 Features
@@ -124,6 +121,7 @@ Contributing
 ------------
 ag-Grid is developed by a team of co-located developers in London. If you want to join the team check out our [jobs listing](https://www.ag-grid.com/ag-grid-jobs-board) or send your application to info@ag-grid.com.
 
+
 License
 ------------------
-This project is licensed under the MIT license.
+This project is licensed under the MIT license. See the [LICENSE file](./LICENSE.txt) for more info.
