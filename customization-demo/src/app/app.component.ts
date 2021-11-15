@@ -9,6 +9,12 @@ import {RangeFilterComponent} from './range-filter.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+
+  defaultColDef = {
+    sortable: true,
+    filter: true
+  };
+
   columnDefs = [
     {headerName: 'Make', field: 'make'},
     {headerName: 'Model', field: 'model'},
@@ -31,7 +37,7 @@ export class AppComponent implements OnInit {
   };
 
   ngOnInit() {
-    fetch('https://api.myjson.com/bins/15psn9')
+    fetch('https://www.ag-grid.com/example-assets/row-data.json')
       .then(result => result.json())
       .then(rowData => this.rowData = rowData);
   }

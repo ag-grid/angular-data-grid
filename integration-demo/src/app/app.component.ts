@@ -6,6 +6,12 @@ import {Component} from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  defaultColDef = {
+    sortable: true,
+    filter: true
+  };
+
   columnDefs = [
     {headerName: 'Make', field: 'make'},
     {headerName: 'Model', field: 'model'},
@@ -15,7 +21,7 @@ export class AppComponent {
   rowData = [];
 
   ngOnInit() {
-    fetch('https://api.myjson.com/bins/15psn9')
+    fetch('https://www.ag-grid.com/example-assets/row-data.json')
       .then(result => result.json())
       .then(rowData => this.rowData = rowData);
   }

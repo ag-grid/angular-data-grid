@@ -4,18 +4,15 @@ Angular Data Grid Examples Used on the AG Grid Blog.
 
 https://blog.ag-grid.com/tag/angular/
 
-
-
-[![CDNJS](https://img.shields.io/cdnjs/v/ag-grid.svg)](https://cdnjs.com/libraries/ag-grid)
-[![npm](https://img.shields.io/npm/dm/ag-grid.svg)](https://www.npmjs.com/package/ag-grid)
-[![npm](https://img.shields.io/npm/dt/ag-grid.svg)](https://www.npmjs.com/package/ag-grid)
-
 Demo of Angular Grid Component integration into an Angular project
+
 ------
 
-[Get started in 5 minutes](https://blog.ag-grid.com/get-started-with-angular-grid-in-5-minutes/)
+- [Get started in 5 minutes](https://blog.ag-grid.com/get-started-with-angular-grid-in-5-minutes/)
+- [Customise Data Grid - custom filter, editor and cell-renderer](https://blog.ag-grid.com/learn-to-customize-angular-grid-in-less-than-10-minutes/)
 
 ag-Grid is a fully-featured and highly customizable JavaScript data grid.
+
 It delivers [outstanding performance](https://www.ag-grid.com/example.php), has no 3rd party dependencies and integrates smoothly with Angular as Angular Component. 
 
 
@@ -62,9 +59,15 @@ Usage Overview
 
 Use the setup instructions below or go through [a 5-minute-quickstart guide](https://www.ag-grid.com/angular-data-grid/getting-started/).
 
+#### To use this demo:
+
+- `cd integration-demo`
+- `npm install`
+- `npm start`
+
 #### Install dependencies
 
-    $ npm i --save ag-grid ag-grid-angular
+    $ npm i --save ag-grid-community ag-grid-angular
 
 #### Import `AgGridModule` and add it to the `App` module
 
