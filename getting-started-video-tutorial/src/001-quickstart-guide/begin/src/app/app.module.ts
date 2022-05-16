@@ -10,7 +10,6 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
     AgGridModule
   ],
   providers: [],

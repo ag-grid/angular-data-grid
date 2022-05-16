@@ -3,7 +3,7 @@ cat newpage.md >> angular-tutorial.md
 cat 00a-introduction.md >> angular-tutorial.md
 cat newpage.md >> angular-tutorial.md
 
-cat 001-quickstart-react-ag-grid.md >> angular-tutorial.md
+cat 001-quickstart-angular-ag-grid.md >> angular-tutorial.md
 
 
 cat newpage.md >> angular-tutorial.md

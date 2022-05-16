@@ -1,7 +1,5 @@
-import { HttpClient } from '@angular/common/http';
-import { Component, OnInit, ViewChild } from '@angular/core';
-import { ColDef, GridReadyEvent } from 'ag-grid-community';
-import { Observable } from 'rxjs';
+
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -9,9 +7,5 @@ import { Observable } from 'rxjs';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-
-
-  constructor(private http: HttpClient) {}
-
 
 }

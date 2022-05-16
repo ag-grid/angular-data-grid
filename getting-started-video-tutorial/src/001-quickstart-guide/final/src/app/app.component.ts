@@ -1,7 +1,9 @@
+
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit, ViewChild } from '@angular/core';
-import { ColDef, GridReadyEvent } from 'ag-grid-community';
-import { Observable } from 'rxjs';
+import { Component, ViewChild } from '@angular/core';
+import { AgGridAngular } from 'ag-grid-angular';
+import { CellClickedEvent, ColDef } from 'ag-grid-community';
+import { Observable } from 'rxjs/internal/Observable';
 
 @Component({
   selector: 'app-root',
@@ -9,29 +11,33 @@ import { Observable } from 'rxjs';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  public columnDefs: ColDef[] = [
-    { field: 'athlete'},
-    { field: 'age'},
-    { field: 'country' },
-    { field: 'year' },
-    { field: 'date'},
-    { field: 'sport'},
-    { field: 'gold'},
-    { field: 'silver'},
-    { field: 'bronze'},
-    { field: 'total'},
+  public rowData$!: Observable<any[]>;
+
+  colDefs: ColDef[] = [
+    { field: 'make'},
+    { field: 'model'},
+    { field: 'price' }
   ];
+
   public defaultColDef: ColDef = {
     sortable: true,
     filter: true,
   };
-  
-  public rowData$!: Observable<any[]>;
 
   constructor(private http: HttpClient) {}
 
-  onGridReady(params: GridReadyEvent) {
+  ngOnInit() {
     this.rowData$ = this.http
-      .get<any[]>('https://www.ag-grid.com/example-assets/olympic-winners.json');
+      .get<any[]>('https://www.ag-grid.com/example-assets/row-data.json');
+  }
+
+  onCellClicked(event: CellClickedEvent){
+    console.log(event);
+  }
+
+  @ViewChild(AgGridAngular) agGrid!: AgGridAngular
+
+  clearSelection(){
+    this.agGrid.api.deselectAll();
   }
 }
