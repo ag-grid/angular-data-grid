@@ -6,17 +6,22 @@ This section will help you get started with the community edition of AG Grid usi
 
 https://youtu.be/_cRDVM6NlPk
 
-00:00 Create Angular App
-01:13 Using AG Grid
-03:45 Loading Data via HTTP
-04:40 Sorting and Filtering
-05:20 Grid Options
-05:50 Grid Events
-06:30 Grid API
-07:20 Summary
+- 00:00 Create Angular App
+- 01:13 Using AG Grid
+- 03:45 Loading Data via HTTP
+- 04:40 Sorting and Filtering
+- 05:20 Grid Options
+- 05:50 Grid Events
+- 06:30 Grid API
+- 07:20 Summary
 
 ## Starting Code
 
+This section will take you from a no file starting point.
+
+If you download the code from Github then the source in `src/001-quickstart-guide` starts you off immediately after installing the code and removing the boiler plate, in section `Using AG Grid` below.
+
+- https://github.com/ag-grid/angular-data-grid/tree/main/getting-started-video-tutorial
 
 ## Create Angular App
 
