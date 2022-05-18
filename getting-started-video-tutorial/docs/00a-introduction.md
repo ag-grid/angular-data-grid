@@ -1,4 +1,4 @@
-# QuickStart React and AG Grid Tutorial
+# QuickStart Angular and AG Grid Tutorial
 
 Welcome to the "QuickStart Angular and AG Grid Tutorial," created by Stephen Cooper. The tutorial text, example source code, and walk-through videos will help you become proficient with AG Grid using Angular very quickly.
 
@@ -68,7 +68,7 @@ Standard features you would expect to find in a Data Grid are:
 - column grouping
 - row and column pinning
 
-All of the above, with a lot more features, are available in the community edition of AG Grid and configurable through simple properties, so it should be powerful enough to meet your needs for a data grid. And if you discover you need a custom filter, editor, or renderer, you can create a custom React Component to implement your domain feature, as we will explain in detail in this tutorial.
+All of the above, with a lot more features, are available in the community edition of AG Grid and configurable through simple properties, so it should be powerful enough to meet your needs for a data grid. And if you discover you need a custom filter, editor, or renderer, you can create a custom Angular Component to implement your domain feature, as we will explain in detail in this tutorial.
 
 A Data Grid also differs from a Data Table in that a Table is built on top of an HTML `table` element, whereas a Data Grid will often manipulate the DOM directly and is built on top of `div` elements. This can simplify the DOM virtualization to reduce memory overhead and improve performance for high-frequency updates.
 
@@ -120,9 +120,9 @@ Each chapter is in its own folder as stand-alone projects.
 
 ### Node.js
 
-Pre-requisites are having Node installed because we will use npx to install the packages and we will use the `create-react-app` to create a simple application structure.
+Pre-requisites are having Node installed because we will use standard Angular tooling to create the project.
 
-You can find instructions and downloads for installling Node.js on [nodejs.org](https://nodejs.org)
+You can find instructions and downloads for installing Node.js on [nodejs.org](https://nodejs.org)
 
 - https://nodejs.org/en/download/
 
