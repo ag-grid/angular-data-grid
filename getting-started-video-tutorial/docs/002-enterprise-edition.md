@@ -180,7 +180,7 @@ https://www.ag-grid.com/angular-data-grid/grouping/
 
 You will see that enterprise features like row grouping are identifiable with a red "(e)" symbol in the docs. Anything without this symbol means it is part of the Community edition.
 
-AG Grid does not require a trial license for Enterprise evaluation you are free to trial Enterprise in your own organisation, a license is required when you deploy the application to production.
+AG Grid does not require a trial license for Enterprise evaluation you are free to trial Enterprise in your own organization, a license is required when you deploy the application to production.
 
 If you wish to remove the watermark and console message then a trial license can be issued to help you evaluate AG Grid without the license warnings.
 
