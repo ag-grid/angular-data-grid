@@ -32,6 +32,8 @@ And directly available below:
     - https://youtu.be/xe6i3W6qW5k
 - 003 - Customizing Cells
     - https://youtu.be/xsafnM77NVs
+- 004 - Custom Component Overview
+    - https://youtu.be/A5-Li_9oPSE	
 
 
 Source code for all videos is available on Github:
